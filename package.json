@@ -1,0 +1,14 @@
+{
+  "name": "lgc-website",
+  "version": "1.0.0",
+  "description": "Company website",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Sean Kozen",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.10.2"
+  }
+}
