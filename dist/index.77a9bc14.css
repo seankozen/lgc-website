@@ -10,15 +10,19 @@ header {
   padding-left: 5px;
 }
 
+.jumbotron {
+  padding-bottom: 2rem;
+}
+
 .hero-box {
-  background: #000;
+  background: #000 url("pexels-anthony-derosa-216216.f3c61e77.jpg") center / cover;
   width: 100vw;
   height: 70vh;
   overflow: hidden;
 }
 
-.hero-img {
-  opacity: .7;
+.image-overlay {
+  background-color: #0000004d;
   width: 100vw;
   height: 70vh;
 }
@@ -50,6 +54,39 @@ h1 {
   color: #011ed4;
   font-family: aileron-semibold-regular, sans-serif;
   font-weight: bold;
+}
+
+#our-services, #english-sign-check, #todd-lowrey, #contact-form {
+  margin: 30rem, 0rem, 20rem, 0rem;
+}
+
+.sections h2 {
+  color: #011ed4;
+  padding-left: 1rem;
+  font-family: aileron-semibold-regular, sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.section-card {
+  background-color: #f1f1f1;
+  margin-bottom: 2rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+.section-card h3 {
+  padding-top: .5rem;
+  padding-left: 1rem;
+}
+
+.section-card p {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+#english-sign-check .section-card {
+  background-color: #fff;
 }
 
 hr {
