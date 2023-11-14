@@ -89,6 +89,26 @@ h1 {
   background-color: #fff;
 }
 
+.profile-img {
+  border-radius: 50%;
+}
+
+.image-container {
+  text-align: center;
+  z-index: 100;
+}
+
+#todd-lowrey .section-card {
+  z-index: -10;
+  margin-top: -5rem;
+  padding-top: 5rem;
+}
+
+#contact-form p {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 hr {
   color: #000;
   background-color: #000;
