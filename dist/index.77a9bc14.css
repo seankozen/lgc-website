@@ -107,6 +107,7 @@ nav a:hover {
 h1 {
   text-align: center;
   color: #011ed4;
+  padding-bottom: 1rem;
   font-family: aileron-semibold-regular, sans-serif;
   font-weight: bold;
 }

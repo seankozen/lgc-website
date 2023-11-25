@@ -119,6 +119,7 @@ h1 {
   text-align: center;
   font-weight: bold;
   color: rgba(1, 30, 212, 1);
+  padding-bottom: 1rem;
 }
 
 #our-services,
