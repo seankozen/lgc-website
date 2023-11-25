@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+:root {
+  --main-font: "Sora", "aileron-semibold-regular", sans-serif;
+  --title-color: #011ed4;
+}
+
 body {
   min-height: 100vh;
 }
@@ -113,7 +118,7 @@ nav a:hover {
 
 h1 {
   text-align: center;
-  color: #011ed4;
+  color: var(--title-color);
   font-family: aileron-semibold-regular, sans-serif;
   font-weight: bold;
 }
@@ -123,7 +128,7 @@ h1 {
 }
 
 .sections h2 {
-  color: #011ed4;
+  color: var(--title-color);
   padding-left: 1rem;
   font-family: aileron-semibold-regular, sans-serif;
   font-size: 25px;
@@ -174,6 +179,7 @@ h1 {
 hr {
   color: #000;
   background-color: #000;
+  border: none;
   width: 80%;
   height: 2px;
 }
