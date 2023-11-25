@@ -2,12 +2,76 @@
   box-sizing: border-box;
 }
 
+body {
+  min-height: 100vh;
+}
+
+/**Navigation and header**/
 header {
   height: 60px;
+  font-family: "Sora", "aileron-semibold-regular", sans-serif;
+}
+
+nav ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav li {
+  height: 50px;
+}
+
+nav a {
+  height: 100%;
+  padding: 0 30px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+nav a:hover {
+  background-color: #f0f0f0;
+}
+
+.sidebar {
+  margin-top: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  z-index: 999;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.sidebar li {
+  width: 100%;
+}
+
+.sidebar a {
+  width: 100%;
+}
+
+.large-nav {
+  display: none;
 }
 
 .logo-box {
   padding-left: 5px;
+}
+
+/**Jumbotron main image and title**/
+.jumbotron {
+  padding-bottom: 2rem;
 }
 
 .hero-box {
@@ -15,6 +79,9 @@ header {
   width: 100vw;
   height: 70vh;
   overflow: hidden;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../img/pexels-anthony-derosa-216216.jpg);
 }
 
 .hero-img {
@@ -22,6 +89,12 @@ header {
   height: 70vh;
   opacity: 0.7;
   overflow: hidden;
+}
+
+.image-overlay {
+  width: 100vw;
+  height: 70vh;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .motto-box {
@@ -55,9 +128,99 @@ h1 {
   color: rgba(1, 30, 212, 1);
 }
 
+#our-services,
+#english-sign-check,
+#todd-lowrey,
+#contact-form {
+  margin: 30rem, 0rem, 20rem, 0rem;
+}
+
+.sections h2 {
+  font-family: "aileron-semibold-regular", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  color: rgba(1, 30, 212, 1);
+  padding-left: 1rem;
+}
+
+.section-card {
+  background-color: rgba(241, 241, 241, 1);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.section-card h3 {
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+}
+
+.section-card p {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+#english-sign-check .section-card {
+  background-color: white;
+}
+
+.profile-img {
+  border-radius: 50%;
+}
+
+.image-container {
+  text-align: center;
+  z-index: 100;
+}
+
+#todd-lowrey .section-card {
+  margin-top: -5rem;
+  padding-top: 5rem;
+  z-index: -10;
+}
+
+#contact-form p {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+/** Styling components**/
+
 hr {
   width: 80%;
   color: black;
   height: 2px;
   background-color: black;
+}
+
+/* ============================================= */
+/*              Media Queries                    */
+/* ============================================= */
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+  body {
+    background-color: yellow;
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) {
+  body {
+    background-color: blue;
+  }
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) {
+  body {
+    background-color: green;
+  }
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+  body {
+    background-color: white;
+  }
 }
