@@ -13,7 +13,9 @@ body {
   --hamburger-menu-background: #6ea3de;
   --hamburger-margin: 6px;
   --animation-timing: .2s ease-in-out;
+  --animation-timing-sidebar: .4s ease-in-out;
   --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
+  --hamburger-font-color: #083973;
   --foreground: #333;
   --background: white;
   --main-font: "Sora", "aileron-semibold-regular", sans-serif;
@@ -100,7 +102,7 @@ hamburger-nav a:hover {
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   text-align: center;
-  transition: translate var(--animation-timing);
+  transition: translate var(--animation-timing-sidebar);
   background-color: #fff3;
   flex-direction: column;
   justify-content: flex-start;
@@ -123,6 +125,15 @@ hamburger-nav a:hover {
 .sidebar ul li {
   text-align: center;
   width: 100%;
+}
+
+.sidebar li a {
+  color: var(--hamburger-font-color);
+  font-size: 30px;
+}
+
+.sidebar li {
+  padding-bottom: 6rem;
 }
 
 .sidebar a {

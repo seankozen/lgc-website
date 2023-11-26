@@ -17,7 +17,9 @@ body {
   --hamburger-menu-background: #6ea3de;
   --hamburger-margin: 6px;
   --animation-timing: 200ms ease-in-out;
+  --animation-timing-sidebar: 400ms ease-in-out;
   --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
+  --hamburger-font-color: #083973;
 
   /*    Site variables    */
   --foreground: #333;
@@ -124,7 +126,7 @@ hamburger-nav a:hover {
   text-align: center;
   padding-left: 0;
   padding-top: 5rem;
-  transition: translate var(--animation-timing);
+  transition: translate var(--animation-timing-sidebar);
   translate: 100%;
 }
 
@@ -135,6 +137,15 @@ hamburger-nav a:hover {
 .sidebar ul li {
   width: 100%;
   text-align: center;
+}
+
+.sidebar li a {
+  font-size: 30px;
+  color: var(--hamburger-font-color);
+}
+
+.sidebar li {
+  padding-bottom: 6rem;
 }
 
 .sidebar a {
