@@ -6,7 +6,145 @@ body {
   min-height: 100vh;
 }
 
-/**Navigation and header**/
+/* ============================================= */
+/*                CSS variables                  */
+/* ============================================= */
+:root {
+  /*    Hamburger variables    */
+  --bar-width: 35px;
+  --bar-height: 3px;
+  --hamburger-gap: 6px;
+  --hamburger-menu-background: #6ea3de;
+  --hamburger-margin: 6px;
+  --animation-timing: 200ms ease-in-out;
+  --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
+
+  /*    Site variables    */
+  --foreground: #333;
+  --background: white;
+  --main-font: "Sora", "aileron-semibold-regular", sans-serif;
+  --main-title-color: rgba(1, 30, 212, 1);
+}
+
+/* ============================================= */
+/*                Hamburger menu                 */
+/* ============================================= */
+
+.hamburger-menu::before,
+.hamburger-menu::after,
+.hamburger-menu input {
+  content: "";
+  width: var(--bar-width);
+  height: var(--bar-height);
+  background-color: var(--foreground);
+  transform-origin: left center;
+  transition: opacity var(--animation-timing), width var(--animation-timing),
+    rotate var(--animation-timing), translate var(--animation-timing);
+}
+
+.hamburger-menu {
+  --x-width: calc(var(--hamburger-height) * 1.41421356237);
+  position: absolute;
+  right: var(--hamburger-margin);
+  top: var(--hamburger-margin);
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  z-index: 1000;
+  gap: var(--hamburger-gap);
+  background-color: var(--hamburger-menu-background);
+  width: 3rem;
+  height: 3rem;
+  padding: 13px 0px 10px 0px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.hamburger-menu input {
+  appearance: none;
+  outline: none;
+  pointer-events: none;
+}
+
+.hamburger-menu:has(input:checked)::before {
+  rotate: 45deg;
+  width: var(--x-width);
+  translate: 5px calc(var(--bar-height) / -2);
+}
+
+.hamburger-menu:has(input:checked)::after {
+  rotate: -45deg;
+  width: var(--x-width);
+  translate: 5px calc(var(--bar-height) / 2);
+}
+
+.hamburger-menu input:checked {
+  opacity: 0;
+  width: 0;
+}
+
+hamburger-nav ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+hamburger-nav li {
+  height: 50px;
+}
+
+hamburger-nav a {
+  height: 100%;
+  padding: 0 30px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+hamburger-nav a:hover {
+  background-color: #f0f0f0;
+}
+
+.sidebar {
+  margin-top: 0rem;
+  position: fixed;
+  top: 0;
+  right: 0;
+  min-height: 100vh;
+  width: 400px;
+  z-index: 400;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  padding-left: 0;
+  padding-top: 5rem;
+  transition: translate var(--animation-timing);
+  translate: 100%;
+}
+
+.hamburger-menu:has(input:checked) + .sidebar {
+  translate: 0;
+}
+
+.sidebar ul li {
+  width: 100%;
+  text-align: center;
+}
+
+.sidebar a {
+  width: 100%;
+}
+
+/* ============================================= */
+/*             Navigation and header             */
+/* ============================================= */
+
 header {
   height: 60px;
   font-family: "Sora", "aileron-semibold-regular", sans-serif;
@@ -37,30 +175,6 @@ nav a:hover {
   background-color: #f0f0f0;
 }
 
-.sidebar {
-  margin-top: 0;
-  position: fixed;
-  top: 0;
-  right: 0;
-  height: 100vh;
-  width: 250px;
-  z-index: 999;
-  background-color: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(10px);
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-
-.sidebar li {
-  width: 100%;
-}
-
-.sidebar a {
-  width: 100%;
-}
-
 .large-nav {
   display: none;
 }
@@ -69,7 +183,10 @@ nav a:hover {
   padding-left: 5px;
 }
 
-/**Jumbotron main image and title**/
+/* ============================================= */
+/*        Jumbotron main image and title         */
+/* ============================================= */
+
 .jumbotron {
   padding-bottom: 2rem;
 }
@@ -178,7 +295,9 @@ h1 {
   padding-right: 2rem;
 }
 
-/** Styling components**/
+/* ============================================= */
+/**             Styling components              **/
+/* ============================================= */
 
 hr {
   width: 80%;
@@ -196,12 +315,44 @@ hr {
   body {
     background-color: yellow;
   }
+
+  .sidebar {
+    margin-top: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 400;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
 }
 
 /* Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) {
   body {
     background-color: blue;
+  }
+
+  .sidebar {
+    margin-top: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 400;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
   }
 }
 

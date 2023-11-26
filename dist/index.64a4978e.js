@@ -575,6 +575,12 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"goJYj":[function(require,module,exports) {
+const menuDiv = document.querySelector(".sidebar");
+const checkBox = document.getElementById("menu-checkbox");
+const translateMenu = ()=>{
+    checkBox.checked = false;
+};
+menuDiv.addEventListener("click", translateMenu);
 
 },{}]},["ciGIJ","goJYj"], "goJYj", "parcelRequire2ee2")
 
