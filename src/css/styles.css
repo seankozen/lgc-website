@@ -253,7 +253,7 @@ h1 {
   font-family: var(--main-font);
   text-align: center;
   font-weight: bold;
-  color: rgba(1, 30, 212, 1);
+  color: var(--main-title-color);
   padding-bottom: 1rem;
 }
 
@@ -272,7 +272,7 @@ h1 {
   font-family: (--main-font);
   font-size: 25px;
   font-weight: 500;
-  color: rgba(1, 30, 212, 1);
+  color: var(--main-title-color);
   padding-left: 1rem;
 }
 
@@ -365,6 +365,11 @@ select {
 textarea {
   padding: 5px 5px;
   text-align: left;
+}
+
+input:focus,
+textarea:focus {
+  outline-color: var(--main-title-color);
 }
 
 /* ============================================= */

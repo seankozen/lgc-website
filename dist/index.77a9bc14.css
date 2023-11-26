@@ -196,7 +196,7 @@ header {
 h1 {
   font-family: var(--main-font);
   text-align: center;
-  color: #011ed4;
+  color: var(--main-title-color);
   padding-bottom: 1rem;
   font-weight: bold;
 }
@@ -207,7 +207,7 @@ h1 {
 
 .sections h2 {
   font-family: (--main-font);
-  color: #011ed4;
+  color: var(--main-title-color);
   padding-left: 1rem;
   font-size: 25px;
   font-weight: 500;
@@ -286,6 +286,10 @@ select {
 textarea {
   text-align: left;
   padding: 5px;
+}
+
+input:focus, textarea:focus {
+  outline-color: var(--main-title-color);
 }
 
 hr {
