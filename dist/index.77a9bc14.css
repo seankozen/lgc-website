@@ -143,6 +143,7 @@ body {
 
 header {
   font-family: var(--main-font);
+  width: 100vw;
   height: 60px;
 }
 
@@ -266,7 +267,7 @@ input[type="submit"] {
   font-size: 18px;
 }
 
-input[type="text"], select, textarea {
+input[type="text"], #subject, textarea {
   text-align: center;
   background-color: var(--hamburger-menu-background);
   color: #000;
@@ -274,11 +275,11 @@ input[type="text"], select, textarea {
   margin: 10px 0 10px 10px;
 }
 
-input[type="text"], select {
+input[type="text"], #subject {
   height: 25px;
 }
 
-select {
+#subject {
   color: #000;
   font-weight: 500;
 }

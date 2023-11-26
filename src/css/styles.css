@@ -163,6 +163,7 @@ body {
 
 header {
   height: 60px;
+  width: 100vw;
   font-family: var(--main-font);
 }
 
@@ -322,6 +323,7 @@ h1 {
 /* ============================================= */
 /*                 Contact Form                  */
 /* ============================================= */
+
 #contact-form {
   padding: 0rem 2rem 2rem 2rem;
 }
@@ -340,7 +342,7 @@ input[type="submit"] {
 }
 
 input[type="text"],
-select,
+#subject,
 textarea {
   text-align: center;
   background-color: var(--hamburger-menu-background);
@@ -353,11 +355,11 @@ textarea {
 }
 
 input[type="text"],
-select {
+#subject {
   height: 25px;
 }
 
-select {
+#subject {
   color: black;
   font-weight: 500;
 }
