@@ -4,6 +4,7 @@
 
 body {
   min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 :root {
@@ -18,7 +19,7 @@ body {
   --hamburger-font-color: #083973;
   --foreground: #333;
   --background: white;
-  --main-font: "Sora", "aileron-semibold-regular", sans-serif;
+  --main-font: "Sora", "Aileron SemiBold", sans-serif;
   --main-title-color: #011ed4;
 }
 
@@ -106,7 +107,7 @@ hamburger-nav a:hover {
   background-color: #fff3;
   flex-direction: column;
   justify-content: flex-start;
-  width: 400px;
+  width: 100vw;
   min-height: 100vh;
   margin-top: 0;
   padding-top: 5rem;
@@ -129,6 +130,7 @@ hamburger-nav a:hover {
 
 .sidebar li a {
   color: var(--hamburger-font-color);
+  width: auto;
   font-size: 30px;
 }
 
@@ -141,8 +143,8 @@ hamburger-nav a:hover {
 }
 
 header {
+  font-family: var(--main-font);
   height: 60px;
-  font-family: Sora, aileron-semibold-regular, sans-serif;
 }
 
 nav ul {
@@ -197,12 +199,12 @@ nav a:hover {
 
 .motto-box {
   color: #fff;
+  font-family: var(--main-font);
   z-index: 300;
   justify-content: center;
   align-items: center;
   width: 86px;
   height: 79px;
-  font-family: Sora, aileron-semibold-regular, sans-serif;
   display: flex;
   position: absolute;
   top: 40%;
@@ -218,10 +220,10 @@ nav a:hover {
 }
 
 h1 {
+  font-family: var(--main-font);
   text-align: center;
   color: #011ed4;
   padding-bottom: 1rem;
-  font-family: aileron-semibold-regular, sans-serif;
   font-weight: bold;
 }
 
@@ -230,9 +232,9 @@ h1 {
 }
 
 .sections h2 {
+  font-family: (--main-font);
   color: #011ed4;
   padding-left: 1rem;
-  font-family: aileron-semibold-regular, sans-serif;
   font-size: 25px;
   font-weight: 500;
 }
