@@ -257,6 +257,10 @@ h1 {
   padding-bottom: 1rem;
 }
 
+/* ============================================= */
+/*                Sections Styling               */
+/* ============================================= */
+
 #our-services,
 #english-sign-check,
 #todd-lowrey,
@@ -308,9 +312,59 @@ h1 {
   z-index: -10;
 }
 
+/*
 #contact-form p {
   padding-left: 2rem;
   padding-right: 2rem;
+}
+*/
+
+/* ============================================= */
+/*                 Contact Form                  */
+/* ============================================= */
+#contact-form {
+  padding: 0rem 2rem 2rem 2rem;
+}
+
+input[type="submit"] {
+  background-color: var(--main-title-color);
+  color: #ffffff;
+  border-radius: 10px;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.row label {
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+input[type="text"],
+select,
+textarea {
+  text-align: center;
+  background-color: var(--hamburger-menu-background);
+  margin: auto 0;
+  color: black;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
+}
+
+input[type="text"],
+select {
+  height: 25px;
+}
+
+select {
+  color: black;
+  font-weight: 500;
+}
+
+textarea {
+  padding: 5px 5px;
+  text-align: left;
 }
 
 /* ============================================= */

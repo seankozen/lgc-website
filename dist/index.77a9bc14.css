@@ -249,9 +249,43 @@ h1 {
   padding-top: 5rem;
 }
 
-#contact-form p {
-  padding-left: 2rem;
-  padding-right: 2rem;
+#contact-form {
+  padding: 0 2rem 2rem;
+}
+
+input[type="submit"] {
+  background-color: var(--main-title-color);
+  color: #fff;
+  border-radius: 10px;
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.row label {
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+input[type="text"], select, textarea {
+  text-align: center;
+  background-color: var(--hamburger-menu-background);
+  color: #000;
+  border: none;
+  margin: 10px 0 10px 10px;
+}
+
+input[type="text"], select {
+  height: 25px;
+}
+
+select {
+  color: #000;
+  font-weight: 500;
+}
+
+textarea {
+  text-align: left;
+  padding: 5px;
 }
 
 hr {
