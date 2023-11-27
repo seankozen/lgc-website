@@ -40,7 +40,7 @@
 123D:\development_projects_work-in-progress\lgc-website\node_modules\csso\node_modules\css-tree\cjs\syntax\node\Identifier.cjs133443170082610076 0
 118D:\development_projects_work-in-progress\lgc-website\node_modules\caniuse-lite\data\features\keyboardevent-charcode.js133443170262525844 0
 74D:\development_projects_work-in-progress\lgc-website\node_modules\svgo\lib133443169994038397 1
-57D:\development_projects_work-in-progress\lgc-website\dist133454856842803699 1
+57D:\development_projects_work-in-progress\lgc-website\dist133455705623295590 1
 141D:\development_projects_work-in-progress\lgc-website\node_modules\node-gyp-build-optional-packages\node_modules\detect-libc\lib\filesystem.js133443169896160255 0
 82D:\development_projects_work-in-progress\lgc-website\node_modules\svgo\lib\svgo.js133443169973104410 0
 83D:\development_projects_work-in-progress\lgc-website\node_modules\commander\typings133443169911239911 1
@@ -55,7 +55,7 @@
 120D:\development_projects_work-in-progress\lgc-website\node_modules\csso\node_modules\css-tree\cjs\syntax\node\AnPlusB.cjs133443169866111848 0
 100D:\development_projects_work-in-progress\lgc-website\node_modules\caniuse-lite\data\features\zstd.js133443170280627405 0
 63D:\development_projects_work-in-progress\lgc-website\.gitignore133443168704609781 0
-63D:\development_projects_work-in-progress\lgc-website\index.html133454849038048902 0
+63D:\development_projects_work-in-progress\lgc-website\index.html133455704508564484 0
 74D:\development_projects_work-in-progress\lgc-website\node_modules\posthtml133443169878977438 1
 94D:\development_projects_work-in-progress\lgc-website\node_modules\posthtml-render\package.json133443169854911811 0
 102D:\development_projects_work-in-progress\lgc-website\node_modules\@parcel\transformer-babel\lib\jsx.js133443169951881190 0
@@ -196,7 +196,7 @@
 133D:\development_projects_work-in-progress\lgc-website\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\tokenizer\utils.js133443170191150871 0
 105D:\development_projects_work-in-progress\lgc-website\node_modules\css-tree\lib\definition-syntax\parse.js133443170226136858 0
 86D:\development_projects_work-in-progress\lgc-website\node_modules\msgpackr-extract\src133443169848598751 1
-71D:\development_projects_work-in-progress\lgc-website\src\css\styles.css133454856836709989 0
+71D:\development_projects_work-in-progress\lgc-website\src\css\styles.css133455692156880915 0
 138D:\development_projects_work-in-progress\lgc-website\node_modules\node-gyp-build-optional-packages\node_modules\detect-libc\lib\process.js133443169903261291 0
 87D:\development_projects_work-in-progress\lgc-website\node_modules\entities\lib\index.js133443169915897461 0
 95D:\development_projects_work-in-progress\lgc-website\node_modules\chrome-trace-event\CHANGES.md133443169863508818 0
@@ -290,7 +290,7 @@
 82D:\development_projects_work-in-progress\lgc-website\node_modules\semver\range.bnf133443169848808139 0
 97D:\development_projects_work-in-progress\lgc-website\node_modules\caniuse-lite\data\regions\SO.js133443170273666030 0
 85D:\development_projects_work-in-progress\lgc-website\node_modules\type-fest\base.d.ts133443169888870956 0
-110D:\development_projects_work-in-progress\lgc-website\dist\pexels-anthony-derosa-216216_compressed.2a0fa401.jpg133454856842763859 0
+110D:\development_projects_work-in-progress\lgc-website\dist\pexels-anthony-derosa-216216_compressed.2a0fa401.jpg133455694124967201 0
 105D:\development_projects_work-in-progress\lgc-website\node_modules\node-gyp-build-optional-packages\bin.js133443169849316787 0
 102D:\development_projects_work-in-progress\lgc-website\node_modules\caniuse-lite\data\features\canvas.js133443170161320683 0
 117D:\development_projects_work-in-progress\lgc-website\node_modules\csso\node_modules\css-tree\lib\syntax\node\index.js133443170218048502 0
@@ -1804,7 +1804,7 @@
 92D:\development_projects_work-in-progress\lgc-website\node_modules\node-addon-api\except.gypi133443169859349944 0
 121D:\development_projects_work-in-progress\lgc-website\node_modules\@parcel\rust\parcel-node-bindings.linux-arm64-musl.node133443170269387481 0
 103D:\development_projects_work-in-progress\lgc-website\node_modules\@swc\helpers\_\_sliced_to_array_loose133443170243330871 1
-77D:\development_projects_work-in-progress\lgc-website\dist\canada.745b59c4.svg133454848598402033 0
+77D:\development_projects_work-in-progress\lgc-website\dist\canada.745b59c4.svg133455694124383618 0
 121D:\development_projects_work-in-progress\lgc-website\node_modules\@babel\code-frame\node_modules\ansi-styles\package.json133443169845766281 0
 99D:\development_projects_work-in-progress\lgc-website\node_modules\@parcel\reporter-cli\package.json133443169957426348 0
 97D:\development_projects_work-in-progress\lgc-website\node_modules\css-tree\lib\syntax\node\Raw.js133443170229826995 0
@@ -2200,7 +2200,7 @@
 96D:\development_projects_work-in-progress\lgc-website\node_modules\lmdb\bin\download-prebuilds.js133443170199817305 0
 106D:\development_projects_work-in-progress\lgc-website\node_modules\caniuse-lite\data\features\ogg-vorbis.js133443170269098254 0
 96D:\development_projects_work-in-progress\lgc-website\node_modules\lines-and-columns\package.json133443169854772193 0
-83D:\development_projects_work-in-progress\lgc-website\dist\company_logo.5a88a6bf.svg133454856842644135 0
+83D:\development_projects_work-in-progress\lgc-website\dist\company_logo.5a88a6bf.svg133455694124383618 0
 100D:\development_projects_work-in-progress\lgc-website\node_modules\lines-and-columns\build\index.d.ts133443169874160319 0
 106D:\development_projects_work-in-progress\lgc-website\node_modules\@parcel\core\src\public\PluginOptions.js133443170196047369 0
 139D:\development_projects_work-in-progress\lgc-website\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\pseudo\has.js133443170100272849 0
@@ -3575,7 +3575,7 @@
 140D:\development_projects_work-in-progress\lgc-website\node_modules\@parcel\source-map\parcel_sourcemap_node\artifacts\index.darwin-arm64.node133443170008382661 0
 94D:\development_projects_work-in-progress\lgc-website\node_modules\css-select\lib\sort.d.ts.map133443170100322690 0
 110D:\development_projects_work-in-progress\lgc-website\node_modules\caniuse-lite\data\features\css-dir-pseudo.js133443170216562485 0
-80D:\development_projects_work-in-progress\lgc-website\dist\index.77a9bc14.css.map133454856841995862 0
+80D:\development_projects_work-in-progress\lgc-website\dist\index.77a9bc14.css.map133455705622891524 0
 134D:\development_projects_work-in-progress\lgc-website\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\node\Rule.js133443170172121791 0
 91D:\development_projects_work-in-progress\lgc-website\node_modules\css-select\lib\types.d.ts133443170157151843 0
 95D:\development_projects_work-in-progress\lgc-website\node_modules\css-select\lib\types.d.ts.map133443170118214815 0
@@ -5359,7 +5359,7 @@
 133D:\development_projects_work-in-progress\lgc-website\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\mergeStyles.js133443170005899300 0
 123D:\development_projects_work-in-progress\lgc-website\node_modules\@parcel\core\test\fixtures\duplicate-targets\package.json133443170219813805 0
 129D:\development_projects_work-in-progress\lgc-website\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\plugins.js133443170026673714 0
-79D:\development_projects_work-in-progress\lgc-website\dist\IMG_7888.75d0092a.jpg133454856841876179 0
+79D:\development_projects_work-in-progress\lgc-website\dist\IMG_7888.75d0092a.jpg133455694124463410 0
 131D:\development_projects_work-in-progress\lgc-website\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\prefixIds.js133443170033465545 0
 136D:\development_projects_work-in-progress\lgc-website\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\preset-default.js133443170038661645 0
 148D:\development_projects_work-in-progress\lgc-website\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeAttributesBySelector.js133443170043688202 0
@@ -5870,13 +5870,13 @@
 75D:\development_projects_work-in-progress\lgc-website\node_modules\.bin\svgo133443170286441849 0
 79D:\development_projects_work-in-progress\lgc-website\node_modules\.bin\svgo.cmd133443170286431879 0
 97D:\development_projects_work-in-progress\lgc-website\node_modules\.bin\update-browserslist-db.ps1133443170286431879 0
-84D:\development_projects_work-in-progress\lgc-website\dist\favicon-32x32.b71481b0.png133454856841876179 0
-76D:\development_projects_work-in-progress\lgc-website\dist\index.0898f127.css133454856842694064 0
-80D:\development_projects_work-in-progress\lgc-website\dist\index.0898f127.css.map133454856842763859 0
-75D:\development_projects_work-in-progress\lgc-website\dist\index.64a4978e.js133454856841955973 0
-79D:\development_projects_work-in-progress\lgc-website\dist\index.64a4978e.js.map133454856842065681 0
-76D:\development_projects_work-in-progress\lgc-website\dist\index.77a9bc14.css133454856841926045 0
-68D:\development_projects_work-in-progress\lgc-website\dist\index.html133454856842644135 0
+84D:\development_projects_work-in-progress\lgc-website\dist\favicon-32x32.b71481b0.png133455694124543188 0
+76D:\development_projects_work-in-progress\lgc-website\dist\index.0898f127.css133455694124543188 0
+80D:\development_projects_work-in-progress\lgc-website\dist\index.0898f127.css.map133455694124593070 0
+75D:\development_projects_work-in-progress\lgc-website\dist\index.64a4978e.js133455694124393580 0
+79D:\development_projects_work-in-progress\lgc-website\dist\index.64a4978e.js.map133455694124563143 0
+76D:\development_projects_work-in-progress\lgc-website\dist\index.77a9bc14.css133455705622831675 0
+68D:\development_projects_work-in-progress\lgc-website\dist\index.html133455705623255693 0
 99D:\development_projects_work-in-progress\lgc-website\dist\pexels-anthony-derosa-216216.f3c61e77.jpg133454795062043828 0
 108D:\development_projects_work-in-progress\lgc-website\dist\pexels-anthony-derosa-216216.f3c61e77.jpg.11000.7n133453664829143181 0
 108D:\development_projects_work-in-progress\lgc-website\dist\pexels-anthony-derosa-216216.f3c61e77.jpg.18768.65133454796452824064 0
