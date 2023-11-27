@@ -395,13 +395,17 @@ hr {
     background-color: yellow;
   }
 
+  /* ============================================= */
+  /*                Hamburger menu                 */
+  /* ============================================= */
+
   .sidebar {
     margin-top: 0;
     position: fixed;
     top: 0;
     right: 0;
     height: 100vh;
-    width: 100%;
+    max-width: 30vw;
     z-index: 400;
     background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
@@ -409,6 +413,10 @@ hr {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+  }
+
+  .sidebar li a {
+    font-size: 20px;
   }
 }
 
@@ -418,13 +426,17 @@ hr {
     background-color: blue;
   }
 
+  /* ============================================= */
+  /*                Hamburger menu                 */
+  /* ============================================= */
+
   .sidebar {
     margin-top: 0;
     position: fixed;
     top: 0;
     right: 0;
     height: 100vh;
-    width: 100%;
+    max-width: 30vw;
     z-index: 400;
     background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
@@ -433,6 +445,10 @@ hr {
     align-items: flex-start;
     justify-content: flex-start;
   }
+
+  .sidebar li a {
+    font-size: 20px;
+  }
 }
 
 /* Media Query for Laptops and Desktops */
@@ -440,11 +456,39 @@ hr {
   body {
     background-color: green;
   }
+
+  /* ============================================= */
+  /*                Hamburger menu                 */
+  /* ============================================= */
+  .hamburger-nav {
+    display: none;
+  }
+
+  /* ============================================= */
+  /*             Navigation and header             */
+  /* ============================================= */
+  .large-nav {
+    display: flex;
+  }
 }
 
 /* Media Query for Large screens */
 @media (min-width: 1281px) {
   body {
     background-color: white;
+  }
+
+  /* ============================================= */
+  /*                Hamburger menu                 */
+  /* ============================================= */
+  .hamburger-nav {
+    display: none;
+  }
+
+  /* ============================================= */
+  /*             Navigation and header             */
+  /* ============================================= */
+  .large-nav {
+    display: flex;
   }
 }
