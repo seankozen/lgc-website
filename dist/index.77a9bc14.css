@@ -12,6 +12,7 @@
   --background: white;
   --main-font: "Sora", "Aileron SemiBold", sans-serif;
   --main-title-color: #011ed4;
+  --nav-font-color: #68a0dd;
 }
 
 * {
@@ -147,7 +148,7 @@ header {
   height: 60px;
 }
 
-.large-nav {
+.flags, .large-nav {
   display: none;
 }
 
@@ -302,6 +303,11 @@ hr {
   height: 2px;
 }
 
+footer {
+  background-color: var(--nav-font-color);
+  height: 3rem;
+}
+
 @media (width >= 481px) and (width <= 767px) {
   body {
     background-color: #ff0;
@@ -355,6 +361,17 @@ hr {
     font-size: 20px;
   }
 
+  .motto-box {
+    top: 30%;
+    left: 50%;
+  }
+
+  .motto {
+    margin-left: 0;
+    font-size: 40px;
+    font-weight: 900;
+  }
+
   h2 {
     margin-left: 1.5rem;
   }
@@ -395,6 +412,11 @@ hr {
     justify-content: center;
     display: flex;
   }
+
+  .form-description {
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+  }
 }
 
 @media (width >= 1025px) {
@@ -406,8 +428,55 @@ hr {
     display: none;
   }
 
-  .large-nav {
+  header {
+    flex-direction: row;
+    width: 100%;
     display: flex;
+  }
+
+  .flags {
+    margin-right: 1rem;
+    padding-top: 10px;
+    display: block;
+  }
+
+  .large-nav {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+  }
+
+  nav ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+  }
+
+  nav a {
+    color: var(--nav-font-color);
+    font-family: var(--main-font);
+    text-decoration: none;
+  }
+
+  nav li {
+    margin: 0 3rem;
+    font-size: 20px;
+  }
+
+  .motto-box {
+    top: 30%;
+    left: 50%;
+  }
+
+  .motto {
+    margin-left: 0;
+    font-size: 40px;
+    font-weight: 900;
+  }
+
+  .form-description {
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
   }
 }
 

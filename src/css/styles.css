@@ -18,6 +18,7 @@
   --background: white;
   --main-font: "Sora", "Aileron SemiBold", sans-serif;
   --main-title-color: rgba(1, 30, 212, 1);
+  --nav-font-color: #68a0dd;
 }
 
 /* ============================================= */
@@ -165,6 +166,10 @@ header {
   height: 60px;
   width: 100vw;
   font-family: var(--main-font);
+}
+
+.flags {
+  display: none;
 }
 
 /**
@@ -386,6 +391,11 @@ hr {
   background-color: black;
 }
 
+footer {
+  height: 3rem;
+  background-color: var(--nav-font-color);
+}
+
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
@@ -460,6 +470,16 @@ hr {
   /* ============================================= */
   /*                Section Styling                */
   /* ============================================= */
+  .motto-box {
+    top: 30%;
+    left: 50%;
+  }
+
+  .motto {
+    font-size: 40px;
+    font-weight: 900;
+    margin-left: 0;
+  }
 
   h2 {
     margin-left: 1.5rem;
@@ -504,6 +524,11 @@ hr {
     display: flex;
     justify-content: center;
   }
+
+  .form-description {
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+  }
 }
 
 /* ============================================= */
@@ -525,8 +550,55 @@ hr {
   /* ============================================= */
   /*             Navigation and header             */
   /* ============================================= */
+  header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .flags {
+    display: block;
+    margin-right: 1rem;
+    padding-top: 10px;
+  }
+
   .large-nav {
     display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: var(--nav-font-color);
+    font-family: var(--main-font);
+  }
+
+  nav li {
+    margin: 0 3rem;
+    font-size: 20px;
+  }
+
+  .motto-box {
+    top: 30%;
+    left: 50%;
+  }
+
+  .motto {
+    font-size: 40px;
+    font-weight: 900;
+    margin-left: 0;
+  }
+
+  .form-description {
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
   }
 }
 
