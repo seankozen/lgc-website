@@ -152,6 +152,8 @@ header {
 }
 
 .logo-box {
+  width: -moz-fit-content;
+  width: fit-content;
   padding-left: 5px;
 }
 
@@ -351,6 +353,47 @@ hr {
 
   .sidebar li a {
     font-size: 20px;
+  }
+
+  h2 {
+    margin-left: 1.5rem;
+  }
+
+  .flex-container {
+    justify-content: space-around;
+    margin-bottom: 2rem;
+    display: flex;
+  }
+
+  .flex-container .section-card {
+    width: 40%;
+  }
+
+  #english-sign-check {
+    justify-items: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  #english-sign-check .section-card {
+    width: 80%;
+    margin: auto auto 3rem;
+  }
+
+  #todd-lowrey {
+    justify-items: center;
+  }
+
+  #todd-lowrey .section-card {
+    z-index: -10;
+    width: 80%;
+    margin: -4rem auto 3rem;
+    padding-top: 3rem;
+  }
+
+  .form-card {
+    justify-content: center;
+    display: flex;
   }
 }
 

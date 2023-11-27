@@ -200,6 +200,7 @@ nav a:hover {
 
 .logo-box {
   padding-left: 5px;
+  width: fit-content;
 }
 
 /* ============================================= */
@@ -389,7 +390,10 @@ hr {
 /*              Media Queries                    */
 /* ============================================= */
 
+/* ============================================== */
 /* Media Query for low resolution  Tablets, Ipads */
+/* ============================================== */
+
 @media (min-width: 481px) and (max-width: 767px) {
   body {
     background-color: yellow;
@@ -420,7 +424,10 @@ hr {
   }
 }
 
-/* Media Query for Tablets Ipads portrait mode */
+/* ============================================= */
+/*  Media Query for Tablets Ipads portrait mode  */
+/* ============================================= */
+
 @media (min-width: 768px) {
   body {
     background-color: blue;
@@ -449,9 +456,60 @@ hr {
   .sidebar li a {
     font-size: 20px;
   }
+
+  /* ============================================= */
+  /*                Section Styling                */
+  /* ============================================= */
+
+  h2 {
+    margin-left: 1.5rem;
+  }
+
+  .flex-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+  }
+  .flex-container .section-card {
+    width: 40%;
+  }
+
+  #english-sign-check {
+    justify-items: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  #english-sign-check .section-card {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 3rem;
+  }
+
+  #todd-lowrey {
+    justify-items: center;
+  }
+
+  #todd-lowrey .section-card {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 3rem;
+  }
+
+  #todd-lowrey .section-card {
+    margin-top: -4rem;
+    padding-top: 3rem;
+    z-index: -10;
+  }
+  .form-card {
+    display: flex;
+    justify-content: center;
+  }
 }
 
-/* Media Query for Laptops and Desktops */
+/* ============================================= */
+/*      Media Query for Laptops and Desktops     */
+/* ============================================= */
+
 @media (min-width: 1025px) {
   body {
     background-color: green;
@@ -472,7 +530,10 @@ hr {
   }
 }
 
-/* Media Query for Large screens */
+/* ============================================= */
+/*         Media Query for Large screens         */
+/* ============================================= */
+
 @media (min-width: 1281px) {
   body {
     background-color: white;
