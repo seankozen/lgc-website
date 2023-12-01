@@ -442,11 +442,13 @@ footer {
 
   .large-nav {
     justify-content: center;
+    align-items: center;
     width: 100%;
     display: flex;
   }
 
   nav ul {
+    margin-left: auto;
     padding: 0;
     list-style-type: none;
     display: flex;
@@ -461,6 +463,26 @@ footer {
   nav li {
     margin: 0 3rem;
     font-size: 20px;
+  }
+
+  .language-selector {
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: 1rem;
+    display: flex;
+  }
+
+  #jpn-flag img {
+    width: 35px;
+    height: 25px;
+    margin-right: 20px;
+    box-shadow: 5px 5px 5px #ccc;
+  }
+
+  #can-flag img {
+    width: 35px;
+    height: 25px;
+    box-shadow: 5px 5px 5px #ccc;
   }
 
   .motto-box {
