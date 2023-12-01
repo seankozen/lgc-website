@@ -511,19 +511,19 @@ footer {
     margin-left: 3.5rem;
     margin-right: 3.5rem;
   }
-}
 
-@media (width >= 1281px) {
-  body {
-    background-color: #fff;
-  }
+  @media (width >= 1281px) {
+    body {
+      background-color: #fff;
+    }
 
-  .hamburger-nav {
-    display: none;
-  }
+    .hamburger-nav {
+      display: none;
+    }
 
-  .large-nav {
-    display: flex;
+    .large-nav {
+      display: flex;
+    }
   }
 }
 
