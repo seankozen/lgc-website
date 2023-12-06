@@ -361,7 +361,7 @@ input[type="submit"] {
 input[type="text"],
 #subject,
 textarea {
-  text-align: center;
+  text-align: left;
   background-color: var(--hamburger-menu-background);
   margin: auto 0;
   color: black;
@@ -416,9 +416,9 @@ footer {
 /* ============================================== */
 
 @media (min-width: 481px) and (max-width: 767px) {
-  body {
+  /*body {
     background-color: yellow;
-  }
+  }*/
 
   /* ============================================= */
   /*                Hamburger menu                 */
@@ -450,9 +450,9 @@ footer {
 /* ============================================= */
 
 @media (min-width: 768px) {
-  body {
+  /*body {
     background-color: blue;
-  }
+  }*/
 
   /* ============================================= */
   /*                Hamburger menu                 */
@@ -547,9 +547,9 @@ footer {
 /* ============================================= */
 
 @media (min-width: 1025px) {
-  body {
+  /*body {
     background-color: green;
-  }
+  }*/
 
   /* ============================================= */
   /*                Hamburger menu                 */
@@ -670,9 +670,9 @@ footer {
 /* ============================================= */
 
 @media (min-width: 1281px) {
-  body {
+  /*body {
     background-color: white;
-  }
+  }*/
 
   /* ============================================= */
   /*                Hamburger menu                 */

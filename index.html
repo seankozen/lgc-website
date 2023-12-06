@@ -37,7 +37,7 @@
           <li><a href="#english-sign-check">English Sign Check</a></li>
           <li><a href="#todd-lowrey">Todd Lowrey</a></li>
           <li><a href="#contact-form">Contact Form</a></li>
-          <li><a lang="ja" href="#">日本語へ</a></li>
+          <li><a lang="ja" href="index.jp.html">日本語へ</a></li>
         </ul>
       </div>
       <nav class="large-nav">
@@ -163,7 +163,11 @@
           090-LOVE-TODD.
         </p>
         <div class="form-card">
-          <form id="contact_form" action="#" method="POST">
+          <form
+            id="contact_form"
+            action="https://formsubmit.co/40381a265c427699053e78d9a737abd4"
+            method="POST"
+          >
             <div class="row">
               <label class="required" for="name">Your name:</label><br />
               <input
@@ -173,6 +177,7 @@
                 type="text"
                 value=""
                 size="30"
+                required
               /><br />
               <span id="name_validation" class="error_message"></span>
             </div>
@@ -185,6 +190,7 @@
                 type="text"
                 value=""
                 size="30"
+                required
               /><br />
               <span id="email_validation" class="error_message"></span>
             </div>
@@ -206,6 +212,7 @@
                 name="message"
                 rows="10"
                 cols="35"
+                required
               ></textarea
               ><br />
               <span id="message_validation" class="error_message"></span>

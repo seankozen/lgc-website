@@ -282,7 +282,7 @@ input[type="submit"] {
 }
 
 input[type="text"], #subject, textarea {
-  text-align: center;
+  text-align: left;
   background-color: var(--hamburger-menu-background);
   color: #000;
   border: none;
@@ -320,10 +320,6 @@ footer {
 }
 
 @media (width >= 481px) and (width <= 767px) {
-  body {
-    background-color: #ff0;
-  }
-
   .sidebar {
     z-index: 400;
     -webkit-backdrop-filter: blur(10px);
@@ -347,10 +343,6 @@ footer {
 }
 
 @media (width >= 768px) {
-  body {
-    background-color: #00f;
-  }
-
   .sidebar {
     z-index: 400;
     -webkit-backdrop-filter: blur(10px);
@@ -431,10 +423,6 @@ footer {
 }
 
 @media (width >= 1025px) {
-  body {
-    background-color: green;
-  }
-
   .hamburger-nav {
     display: none;
   }
@@ -541,10 +529,6 @@ footer {
 }
 
 @media (width >= 1281px) {
-  body {
-    background-color: #fff;
-  }
-
   .hamburger-nav {
     display: none;
   }
