@@ -507,23 +507,50 @@ footer {
     font-weight: 900;
   }
 
+  .main-divider {
+    width: 70%;
+  }
+
   .form-description {
     margin-left: 3.5rem;
     margin-right: 3.5rem;
   }
 
-  @media (width >= 1281px) {
-    body {
-      background-color: #fff;
-    }
+  #our-services {
+    width: 80%;
+    margin: 0 auto;
+  }
 
-    .hamburger-nav {
-      display: none;
-    }
+  #english-sign-check {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-    .large-nav {
-      display: flex;
-    }
+  #todd-lowrey {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  #contact-form {
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (width >= 1281px) {
+  body {
+    background-color: #fff;
+  }
+
+  .hamburger-nav {
+    display: none;
+  }
+
+  .large-nav {
+    display: flex;
   }
 }
 
