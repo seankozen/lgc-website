@@ -239,10 +239,6 @@ h1 {
   padding-right: 2rem;
 }
 
-#english-sign-check .section-card {
-  background-color: #fff;
-}
-
 .profile-img {
   border-radius: 50%;
 }
@@ -264,6 +260,10 @@ footer {
   display: flex;
 }
 
+.japanese {
+  line-height: 1.5rem;
+}
+
 #contact-form {
   padding: 0 2rem 2rem;
 }
@@ -276,6 +276,10 @@ input[type="submit"] {
   font-size: 18px;
 }
 
+.row {
+  margin-top: .5rem;
+}
+
 .row label {
   margin-left: 10px;
   font-size: 18px;
@@ -286,7 +290,7 @@ input[type="text"], #subject, textarea {
   background-color: var(--hamburger-menu-background);
   color: #000;
   border: none;
-  margin: 10px 0 10px 10px;
+  margin: 10px 0 5px 10px;
 }
 
 input[type="text"], #subject {
@@ -305,6 +309,19 @@ textarea {
 
 input:focus, textarea:focus {
   outline-color: var(--main-title-color);
+}
+
+.required-field {
+  color: red;
+  padding-left: .5rem;
+  font-size: .8rem;
+}
+
+.error_message {
+  color: red;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-size: .8rem;
 }
 
 hr {
@@ -389,6 +406,11 @@ footer {
     width: 40%;
   }
 
+  #our-business .section-card {
+    width: 80%;
+    margin: auto auto 3rem;
+  }
+
   #english-sign-check {
     justify-items: center;
     margin-top: 3rem;
@@ -460,8 +482,8 @@ footer {
   }
 
   nav li {
-    margin: 0 3rem;
-    font-size: 20px;
+    margin: 0 2rem;
+    font-size: 15px;
   }
 
   .language-selector {
@@ -504,7 +526,7 @@ footer {
     margin-right: 3.5rem;
   }
 
-  #our-services {
+  #our-services, #our-business {
     width: 80%;
     margin: 0 auto;
   }
@@ -535,6 +557,11 @@ footer {
 
   .large-nav {
     display: flex;
+  }
+
+  nav li {
+    margin: 0 3rem;
+    font-size: 18px;
   }
 }
 

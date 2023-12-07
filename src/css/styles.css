@@ -172,33 +172,6 @@ header {
   display: none;
 }
 
-/**
-nav ul {
-  width: 100%;
-  list-style: none;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-nav li {
-  height: 50px;
-}
-
-nav a {
-  height: 100%;
-  padding: 0 30px;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  color: black;
-}
-
-nav a:hover {
-  background-color: #f0f0f0;
-}
-**/
-
 .large-nav {
   display: none;
 }
@@ -305,10 +278,6 @@ h1 {
   padding-right: 2rem;
 }
 
-#english-sign-check .section-card {
-  background-color: white;
-}
-
 .profile-img {
   border-radius: 50%;
 }
@@ -330,12 +299,12 @@ footer {
   justify-content: center;
 }
 
-/*
-#contact-form p {
-  padding-left: 2rem;
-  padding-right: 2rem;
+/* ============================================= */
+/*               Japanese Language               */
+/* ============================================= */
+.japanese {
+  line-height: 1.5rem;
 }
-*/
 
 /* ============================================= */
 /*                 Contact Form                  */
@@ -353,6 +322,10 @@ input[type="submit"] {
   margin-left: 10px;
 }
 
+.row {
+  margin-top: 0.5rem;
+}
+
 .row label {
   font-size: 18px;
   margin-left: 10px;
@@ -367,7 +340,7 @@ textarea {
   color: black;
   margin-left: 10px;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   border: none;
 }
 
@@ -389,6 +362,19 @@ textarea {
 input:focus,
 textarea:focus {
   outline-color: var(--main-title-color);
+}
+
+.required-field {
+  color: red;
+  font-size: 0.8rem;
+  padding-left: 0.5rem;
+}
+
+.error_message {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+  color: red;
 }
 
 /* ============================================= */
@@ -505,11 +491,18 @@ footer {
     width: 40%;
   }
 
+  #our-business .section-card {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 3rem;
+  }
+
   #english-sign-check {
     justify-items: center;
     margin-top: 3rem;
     margin-bottom: 3rem;
   }
+
   #english-sign-check .section-card {
     width: 80%;
     margin: auto;
@@ -594,8 +587,8 @@ footer {
   }
 
   nav li {
-    margin: 0 3rem;
-    font-size: 20px;
+    margin: 0 2rem;
+    font-size: 15px;
   }
 
   .language-selector {
@@ -642,7 +635,8 @@ footer {
     margin-right: 3.5rem;
   }
 
-  #our-services {
+  #our-services,
+  #our-business {
     width: 80%;
     margin: 0 auto;
   }
@@ -686,5 +680,10 @@ footer {
   /* ============================================= */
   .large-nav {
     display: flex;
+  }
+
+  nav li {
+    margin: 0 3rem;
+    font-size: 18px;
   }
 }
