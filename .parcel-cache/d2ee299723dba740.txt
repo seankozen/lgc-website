@@ -93,7 +93,7 @@
 78D:\development_projects_work-in-progress\lgc-website\node_modules\svgo\LICENSE133443169846085429 0
 118D:\development_projects_work-in-progress\lgc-website\node_modules\csso\node_modules\css-tree\lib\syntax\node\String.js133443170228011871 0
 86D:\development_projects_work-in-progress\lgc-website\node_modules\postcss-value-parser133443169899820471 1
-60D:\development_projects_work-in-progress\lgc-website\src\css133468233468461821 1
+60D:\development_projects_work-in-progress\lgc-website\src\css133468239121147847 1
 92D:\development_projects_work-in-progress\lgc-website\node_modules\csso\lib\replace\Atrule.js133443170093760249 0
 106D:\development_projects_work-in-progress\lgc-website\node_modules\lmdb\dependencies\lz4\lib\dll\liblz4.def133443170181746044 0
 119D:\development_projects_work-in-progress\lgc-website\node_modules\css-select\node_modules\domhandler\lib\esm\index.d.ts133443169938586765 0
@@ -189,7 +189,7 @@
 133D:\development_projects_work-in-progress\lgc-website\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\tokenizer\utils.js133443170191150871 0
 105D:\development_projects_work-in-progress\lgc-website\node_modules\css-tree\lib\definition-syntax\parse.js133443170226136858 0
 86D:\development_projects_work-in-progress\lgc-website\node_modules\msgpackr-extract\src133443169848598751 1
-71D:\development_projects_work-in-progress\lgc-website\src\css\styles.css133468235284638402 0
+71D:\development_projects_work-in-progress\lgc-website\src\css\styles.css133468239644834176 0
 138D:\development_projects_work-in-progress\lgc-website\node_modules\node-gyp-build-optional-packages\node_modules\detect-libc\lib\process.js133443169903261291 0
 87D:\development_projects_work-in-progress\lgc-website\node_modules\entities\lib\index.js133443169915897461 0
 95D:\development_projects_work-in-progress\lgc-website\node_modules\chrome-trace-event\CHANGES.md133443169863508818 0
